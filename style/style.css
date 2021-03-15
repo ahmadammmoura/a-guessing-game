@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+        font-size: 10px;
+        font-family: 'Ropoto', sans-serif;
+        color: #eee;
+}
+body{
+        width: 100%;
+        height: 100%;
+        background: url("/img/sitebg.jpg") no-repeat center fixed ;
+        background-size: cover;
+}
+header h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 1rem;
+}
+img{
+    float: left;
+    width: 40%;
+    height: 20%;
+    border-radius: 5%;
+    margin: 50px 30px 20px 5px;
+
+}
+
+.qustions{
+    float: left;
+    margin-top: 50px;
+    width: 50%;
+    height: 100%;
+    font-size: 30px;
+}
+
