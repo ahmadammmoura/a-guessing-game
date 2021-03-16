@@ -108,7 +108,7 @@ for(let i = 6 ; i >= 1 ; i-- ){
     gusses--;
 
     if(gusses==0){
-        alert('engl3')
+        alert('poor you')
     }
 
 
