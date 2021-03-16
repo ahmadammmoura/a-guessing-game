@@ -6,14 +6,14 @@
 
 
 html{
-        font-size: 10px;
+        font-size: 20px;
         font-family: 'Ropoto', sans-serif;
-        color: #eee;
+        color: #ffff;
 }
 body{
         width: 100%;
         height: 100%;
-        background: url("img/sitebg.jpg") no-repeat center fixed ;
+        background-color: #101820FF;
         background-size: cover;
 }
 header h1{
@@ -29,12 +29,56 @@ img{
     margin: 50px 30px 20px 5px;
 
 }
+.container{
+    margin: 10px auto ;
+    max-width: 960px;
+}
+
+.aboutMe{
+    width: 40%;
+    float: left;
+    border: #FEE715FF solid 5px;
+    padding: 20px;
+    margin: 10px;
+    border-top-right-radius: 30px;
+}
+.aboutMe h4{
+    text-align: center;
+}
 
 .qustions{
+    border:#FEE715FF solid 5px;
+    border-top-right-radius: 30px;
     float: left;
-    margin-top: 50px;
-    width: 50%;
-    height: 100%;
+    margin: 10px;
+    width: 45%;
     font-size: 30px;
+    padding: 10px;
 }
+.movies{
+    width: 40%;
+    border: #FEE715FF solid 5px; 
+    padding: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 100px;
+    float: left;
+    margin-top: -205px;
+    margin-left: 10px;
+
+}
+
+.movies ol{
+    margin-left: 30px;
+}
+.movies ol li a{
+    text-decoration: none;
+    color: #f4f4f4 ;
+}
+.movies ol li  a:hover{
+    color: #FEE715FF ;
+}
+.clr{
+    clear: both;
+}
+
 

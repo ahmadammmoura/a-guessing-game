@@ -54,3 +54,63 @@ if (Q5 === 'yes' || Q5 === 'y') {
     document.getElementById('answer5').innerHTML += `<h5 style="color: red;" >wrong</h5>`;
     alert('wrong')
 }
+let attempt = 4
+
+
+for (let i = 5; i > 0; i--) {
+
+
+    if (attempt == 0) {
+        alert('the answer was 7')
+        break;
+    }
+
+    let Q6 = prompt('what the number that i am thinking about between 0 to 10 you have ' + attempt + ' attempts')
+    if (Q6 == 7) {
+        alert('right answer')
+        break;
+    } else if (Q6 > 7) {
+        alert('too high')
+        attempt--
+    } else if (Q6 < 7) {
+        alert('too low')
+        attempt--
+    }
+
+}
+
+
+
+
+let  pleyers = ['messi' , 'neymar' , 'inesta', 'pedri'];
+
+let gusses = 6
+let correct = false
+
+for(let i = 6 ; i >= 1 ; i-- ){
+
+    let Q7 = prompt('who is my fav barcelona player '+ gusses +' left').toLocaleLowerCase()
+
+    for(let j = 0 ; j < pleyers.length ; j++){
+
+        if(Q7 == pleyers[j]){
+            alert('thats right');
+            correct = true
+            break ;
+        }
+
+    }
+
+    if(correct){
+        break;
+    }
+
+    gusses--;
+
+    if(gusses==0){
+        alert('engl3')
+    }
+
+
+
+}
