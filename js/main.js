@@ -16,6 +16,7 @@ if (Q1 === 'yes' || Q1 === 'y') {
     alert('bad start')
 }
 
+
 let Q2 = prompt('graduated from Albalqaa University ?').toLocaleLowerCase()
 if (Q2 === 'yes' || Q2 === 'y') {
     document.getElementById('answer2').innerHTML += `<h5 style="color: green;" >True</h5>`;
