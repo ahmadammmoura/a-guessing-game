@@ -3,18 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.qustions h1{
+    color: deeppink;
+}
 
 html{
-        font-size: 20px;
-        font-family: 'Ropoto', sans-serif;
-        color: #ffff;
+    font-size: 20px;
+    font-family: 'Syne Mono', monospace;;
+    color: #ffff;
 }
 body{
-        width: 100%;
-        height: 100%;
-        background-color: #101820FF;
-        background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-color: #101820FF;
+    background-size: cover;
 }
 header h1{
     text-align: center;
@@ -48,6 +50,10 @@ img{
 }
 .aboutMe h4{
     text-align: center;
+    
+}
+.aboutMe h2{
+    color: deeppink;
 }
 
 .qustions{
@@ -55,10 +61,13 @@ img{
     border-top-right-radius: 30px;
     float: left;
     margin: 10px;
-    width: 45%;
+    width: 50%;
     font-size: 30px;
     padding: 10px;
+    transform: 1;
+    transition: 2s;
 }
+
 .movies{
     width: 40%;
     border: #FEE715FF solid 5px; 
